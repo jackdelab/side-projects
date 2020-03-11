@@ -1,5 +1,9 @@
-package fibonacci
+package main
 
 import (
-	// "fmt"
+	"fmt"
 )
+
+func sayHello(name string){
+	fmt.Printf("Hello, %s", name)
+}
